@@ -87,6 +87,10 @@ a.text-link {
 
 /* ABOUT SECTION */
 
+.about {
+  margin: 30px 0;
+}
+
 .about img {
   margin: 30px auto 0;
   display: block;
