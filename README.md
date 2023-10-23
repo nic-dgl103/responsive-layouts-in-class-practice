@@ -1,55 +1,47 @@
-# Week 9 Exercise - Media Queries
+# Responsive Layout - In-class PractoicePractice
 
 ## Objectives
 You will use the provided HTML and CSS as a starting point, and add to it so that the layout looks like the provided examples and works on all screen sizes up to 1024px wide.
 
 ## Instructions
-Remember to make regular commits with descriptive labels.
-### 1. Get set up
-* Clone your remote exercise repository onto your local machine.
-* Add a comment in the head element of the homepage including: the course code and your section number - your name - Week 9 Exercise. Example:
-```
-<!-- DGL 103 CVS1 - your name - Week 9 Exercise -->
-```
+
+### 1. Get Set up
+In Github, click on the green Code button > Select Download ZIP. Find the ZIP file in your Downloads folder and move it to an apporpriate location on your computer. Unzip the file. Open the unzipped folder in VSCode.
+
 ### 2. Design the page for a small screen
-Start the process by viewing the web page at a small window size to simulate what it might look like on a mobile device: 
-  1. With the webpage open in Chrome, right-click > Inspect. 
+View the web page at a small window size to simulate what it might look like on a mobile device: 
+  1. Open index.html in Chrome > right-click > Inspect. 
   2. In the DevTools window, click on the Toggle Device button (in top left-hand corner).
   3. In the browser window, select iPhone SE from the Dimensions drop down menu.
   4. Make all the HTML and CSS changes below:
-      - Center the image below the header and add a little top margin.
-      - Make the styling of the first paragrph more important.
       - Style the links inside the articles like buttons.
       - Style the "Back to top" links below each article.
-      - Center the disclaimer in the footer and make its image smaller.
   When you are finished your page should look like the example below:<br>
   ![Image of mobile webpage](images/mobile.png)
 
-By designing for the small screen first we're using what is known as a mobile-first approach. By doing this, we create a basic design that will fit small screens and low bandwidth, and then we add advanced features or layouts as the screen grows and users switch from cell data to wi-fi. This ensures that we're designing an experience that will work for everyone. 
-
 ### 3. Introduce a new breakpoint for ipads
-  1. In the browser window, select iPad Air from the Dimensions drop down menu.
+  1. In the browser window, select iPad Mini from the Dimensions drop down menu.
   2. Add the following media query at the bottom of your CSS:
 ```
-  /* Medium devices (ipads, 768px and up) */
+  /* Medium devices (vertical ipads, 768px and up) */
 @media only screen and (min-width: 768px) {
 
 }
 ```
-  3. Add, in the media query, all the HTML and CSS necessary to make the page look like the example below:<br>
+  3. Add, in the media query, all the CSS necessary to make the page look like the example below. You may need to add some HTML to control the relationships between your flex containers and flex items.<br>
   ![Image of ipad webpage](images/ipad.png)
 
 ### 4. Create another breakpoint for large screens
-  1. In the browser window, select Responsive from the Dimensions drop down menu. Type 1024 in the first text field to change the width of the viewport.
-  Note: If the computer that you are working on has a small screen and you can't see the whole viewport window then you may need to work on a lab computer (for a professional website, I would add an extra breakpoint for extra large devices at 1366 pixels).
+  1. In the browser window, select Responsive from the Dimensions drop down menu. Type 1200 in the first text field to change the width of the viewport.
+  Note: If the computer that you are working on has a small screen and you can't see the whole viewport window then you may need to work on a lab computer.
   2. Add the following media query at the bottom of your CSS:
 ```
-/* Large devices (small laptops, 1024px and up) */
-@media only screen and (min-width: 1024px) {
+/* Large devices (small laptops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
 }
 ```
-  3. Add, in the media query, all the HTML and CSS necessary to make the page look like the example below:<br>
+  3. Add, in the media query, all the CSS necessary to make the page look like the example below:<br>
   ![Image of laptop webpage](images/laptop.png)
 
 ### 5. Check the layout in between the breakpoints
@@ -57,7 +49,6 @@ By designing for the small screen first we're using what is known as a mobile-fi
   2. Drag to expand your viewport width. Check that the layout works on all screen sizes, even between the breakpoints. Look for anything that needs to be fine-tuned, for example, the line length might become too long for the text to be easily readable. Or perhaps the page becomes wide enough that it no long makes sense for the images to display in a stack.
   3. If anything needs to be tweaked, record the viewport width at this point. Add a new media query using the width of the viewport as the min-width.
   4. Add any necessary CSS to make the layout work.
-
 
 ### 4. Format, organize and add comments 
 * make sure that you HTML and CSS are well formatted.
