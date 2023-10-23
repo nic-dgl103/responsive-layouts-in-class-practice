@@ -1,0 +1,111 @@
+html {
+  font-size: 62.5%;
+}
+
+/* STRUCTURE */
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: rgba(0, 0, 0, .6);
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+header {
+  background-color: #ff9b8e;
+  border: 1px solid #ff9b8e;
+  padding: 0 16px;
+}
+
+main {
+  padding: 0 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* GENERAL TYPOGRAPHY */
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 48px;
+}
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+
+.subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin: 4px 0 24px;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a.text-link {
+  font-family: 'Nunito', sans-serif;
+  color: #ff9b8e;
+  text-decoration: none;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #ff9b8e;
+}
+
+.back-to-top {
+  text-align: right;
+  margin: 0 16px 32px 0;
+}
+
+/* ABOUT SECTION */
+
+
+/* KITTEN CARDS */
+
+.kittens article {
+  border: 1px solid #ff9b8e;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.kittens article h3 {
+  margin: 8px 0 0;
+}
+
+.kittens article figure {
+  margin: 0;
+}
+
+.kittens article figcaption {
+  margin: 16px 0 8px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  padding: 32px 16px;
+  margin-top: 32px;
+  color: rgba(256, 256, 256, .8);
+}
+
+footer h3,
+footer a {
+  color: rgba(256, 256, 256, .8);
+}
