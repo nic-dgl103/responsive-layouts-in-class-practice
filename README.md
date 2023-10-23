@@ -35,8 +35,8 @@ View the web page at a small window size to simulate what it might look like on 
 
 }
 ```
-  3. Add, in the media query, all the CSS necessary to make the page look like the example below:<br>
-  ![Image of laptop webpage](images/laptop.png)
+  3. Add, in the media query, all the CSS necessary to make the page look like the example below. When you style the footer, read up on using the flexbox container proprerty called gap: https://www.w3schools.com/cssref/css3_pr_gap.php<br>
+  ![Image of desktop webpage](images/desktop.png)
 
 ### 4. Check the layout in between the breakpoints
   1. In the browser window, select Responsive from the Dimensions drop down menu.
