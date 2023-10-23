@@ -77,6 +77,14 @@ a.text-link {
   margin: 0 16px 32px 0;
 }
 
+.back-to-top a {
+  font-family: 'Nunito', sans-serif;
+  color: #ff9b8e;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #ff9b8e;
+}
+
 /* ABOUT SECTION */
 
 .about img {
@@ -103,6 +111,21 @@ a.text-link {
 
 .kittens article figcaption {
   margin: 16px 0 8px;
+}
+
+.kittens article a {
+  background-color: #ff9b8e49;
+  border: 2px solid #ff9b8e;
+  padding: 16px 24px;
+  color: black;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 32px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin: 16px 0;
 }
 
 /* FOOTER */

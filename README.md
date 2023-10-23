@@ -8,16 +8,10 @@ You will use the provided HTML and CSS as a starting point, and add to it so tha
 ### 1. Get Set up
 In Github, click on the green Code button > Select Download ZIP. Find the ZIP file in your Downloads folder and move it to an apporpriate location on your computer. Unzip the file. Open the unzipped folder in VSCode.
 
-### 2. Design the page for a small screen
 View the web page at a small window size to simulate what it might look like on a mobile device: 
   1. Open index.html in Chrome > right-click > Inspect. 
   2. In the DevTools window, click on the Toggle Device button (in top left-hand corner).
   3. In the browser window, select iPhone SE from the Dimensions drop down menu.
-  4. Make all the HTML and CSS changes below:
-      - Style the links inside the articles like buttons.
-      - Style the "Back to top" links below each article.
-  When you are finished your page should look like the example below:<br>
-  ![Image of mobile webpage](images/mobile.png)
 
 ### 3. Introduce a new breakpoint for ipads
   1. In the browser window, select iPad Mini from the Dimensions drop down menu.
